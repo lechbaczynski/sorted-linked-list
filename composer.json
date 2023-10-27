@@ -1,0 +1,25 @@
+{
+    "name": "lechbaczynski/sorted-linked-list",
+    "description": "Sorted linked list that accepts string or int values, but not both.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lechbaczynski\\SortedLinkedList\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lech",
+            "email": "lechbaczynski@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.0|^10.4"
+    }
+}
