@@ -25,8 +25,8 @@ runnning it like:
 
 `docker run -ti sortedlist`
 
-should runn all the uit tests and output their results.
+should run all the PHP Unit tests and output their results.
 
 # Notes
-Works with PHP 8
+Works with PHP 8 and PHPUnit 10
 
