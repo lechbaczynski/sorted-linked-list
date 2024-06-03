@@ -19,8 +19,12 @@ $list->getGenerator(); // returns Generator that yields values
 
 # Docker:
 
-runnning it like
+runnning it like:
+
+`docker build . -t sortedlist `
+
 `docker run -ti sortedlist`
+
 should runn all the uit tests and output their results.
 
 # Notes
